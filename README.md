@@ -6,7 +6,7 @@
   - You also will endup with a more SOLID design -- making code accessible for testing usually drives towards cleaner and more modular (hence more maintainable) code.
   - Gives rapid feedback about your design
 - Don't hate writing tests, you would **much** prefer changing a code that is tightly covered and protected by thorogh TDD unit-tests -- so do others! -- imagine a world that no developer fears working on a legacy project!
-- If it's very sophisticated to setup tests, your design is not well-composed
+- Listen to your tests. If it's hard to write tests for a piece of your software, your design is not well-composed -- it is either tighly coupled or not-so-cohesive.
 - If a component (class) is hard to name, it probably shouldn't exist
 - Not everything you refactor-out should be mocked
 - Beware of negative testing with doing TDD
